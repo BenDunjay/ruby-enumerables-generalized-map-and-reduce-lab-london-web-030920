@@ -27,7 +27,7 @@ end
 
 while counter < array.length do 
   
- starting_point = yield(array[counter], starting_point 
+yield(num1, array[i])
 
 counter += 1
 end 
