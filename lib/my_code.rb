@@ -15,8 +15,10 @@ end
 
 
 def reduce(array, starting_value = 0)
+if starting_value
   counter = 1 
 starting_point = array[0] 
+
 
 while counter < array.length do 
   
