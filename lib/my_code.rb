@@ -31,6 +31,6 @@ yield(num1, array[i])
 
 i += 1
 end 
-
+num1
   
 end
