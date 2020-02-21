@@ -25,11 +25,11 @@ i = 1
 
 end
 
-while counter < array.length do 
+while i < array.length do 
   
 yield(num1, array[i])
 
-counter += 1
+i += 1
 end 
 starting_point
   
