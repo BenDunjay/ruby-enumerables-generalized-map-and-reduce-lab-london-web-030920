@@ -20,7 +20,7 @@ if starting_value
  i = 0 
  
  else 
-   
+num1 = array[0] 
 
 
 while counter < array.length do 
