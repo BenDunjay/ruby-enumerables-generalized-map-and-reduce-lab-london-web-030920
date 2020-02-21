@@ -20,7 +20,7 @@ starting_point = array[0]
 
 while counter < array.length do 
   
- starting_point = yield(array[counter], starting_point)  
+ starting_point = yield(array[counter], starting_point or starting_value)  
 
 counter += 1
 end 
