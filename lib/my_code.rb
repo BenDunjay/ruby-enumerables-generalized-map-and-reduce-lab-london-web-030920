@@ -21,11 +21,13 @@ if starting_value
  
  else 
 num1 = array[0] 
+i = 1 
 
+end
 
 while counter < array.length do 
   
- starting_point = yield(array[counter], starting_point || starting_value)  
+ starting_point = yield(array[counter], starting_point 
 
 counter += 1
 end 
